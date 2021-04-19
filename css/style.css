@@ -1,0 +1,331 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 80%;
+}
+
+li {
+    list-style: none;
+}
+
+.common-title {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.common-body {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.common-title-blue {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #4A8BFC;
+}
+
+.common-body-black {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+}
+
+.common-button {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 10px 12px;
+}
+
+/* ********************************************************************************
+                                    NAVBAR PART START
+******************************************************************************** */
+.navbar-brand {
+    font-size: 21px;
+}
+
+.navbar-nav {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+nav ul li {
+    margin-right: 24px;
+}
+
+/* ********************************************************************************
+                                    NAVBAR PART END
+******************************************************************************** */
+/* ********************************************************************************
+                                    BANNER PART START
+******************************************************************************** */
+.bg {
+    background: url("/images/slide_01.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.banner-part .col-md-5 {
+    padding-top: 100px;
+}
+
+.banner-part .col-md-5 h2 {
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 33px;
+}
+
+.banner-part .col-md-5 .banner-body {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 142px;
+}
+
+.banner-part .col-md-5 .banner-body p {
+    margin: 22px 0;
+    padding-right: 38px;
+}
+
+.banner-part .col-md-5 .banner-body a {
+    display: inline-block;
+    text-decoration: none;
+    color: #5b98ff;
+    cursor: pointer;
+}
+
+/* ********************************************************************************
+                                    BANNER PART END
+******************************************************************************** */
+/* ********************************************************************************
+                                    BUILD PART START
+******************************************************************************** */
+.build-part {
+    background: #3AA9FD;
+}
+
+.build-part .awesome-bg {
+    background: #fff;
+    padding: 38px 20px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.build-part .common-title {
+    text-align: center;
+    color: #fff;
+    padding-top: 60px;
+}
+
+.build-part .common-body {
+    text-align: center;
+    color: #fff;
+    padding: 20px 330px;
+}
+
+.build-part .common-body-black {
+    padding: 26px 1px;
+}
+
+/* ********************************************************************************
+                                    BUILD PART END
+******************************************************************************** */
+/* ********************************************************************************
+                                    COMPANY PART START
+******************************************************************************** */
+.company-part {
+    margin: 110px 0px;
+}
+
+.company-part .company .common-body-black {
+    padding: 22px 0px;
+    padding-right: 20px;
+}
+
+/* ********************************************************************************
+                                    COMPANY PART END
+******************************************************************************** */
+/* ********************************************************************************
+                                    BRAND PART START
+******************************************************************************** */
+.brand-part {
+    padding: 110px 0px;
+}
+
+.brand-part .brand-bg {
+    background: #F6F6F6;
+}
+
+.brand-part .brand-bg .brand-content {
+    text-align: center;
+    padding: 22px 20px;
+}
+
+/* ********************************************************************************
+                                    BRAND PART END
+******************************************************************************** */
+/* ********************************************************************************
+                                    USER PART START
+******************************************************************************** */
+.user-part {
+    background: #343434;
+}
+
+.user-part .common-body-black {
+    color: #999;
+}
+
+.user-part .row{
+    padding: 100px 0px;
+}
+
+.user-part .row .common-title-blue {
+    margin: 26px 0px;
+} 
+
+/* ********************************************************************************
+                                    USER PART END
+******************************************************************************** */
+/* ********************************************************************************
+                                    TEAM PART START
+******************************************************************************** */
+.team-part {
+    text-align: center;
+    margin: 100px 0px;
+}
+
+.team-part img {
+    max-width: 210px;
+}
+
+.team-part .row .common-title-blue {
+    padding: 18px;
+}
+
+/* ********************************************************************************
+                                    TEAM PART END
+******************************************************************************** */
+/* ********************************************************************************
+                                    PRICE PART START
+******************************************************************************** */
+.price-part .col-md-3 {
+    margin-bottom: 100px;
+}
+
+.price-part .price {
+    background: #E8E8E8;
+    padding: 20px 0px;
+}
+
+.price-part .price-rate {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    color: #6c757d;
+}
+
+.price-part .price-rate span {
+    color: #07B307;
+}
+
+/* ********************************************************************************
+                                    PRICE PART END
+******************************************************************************** */
+/* ********************************************************************************
+                                    ACHIEVEMENT PART START
+******************************************************************************** */
+.achievement-part {
+    background: linear-gradient(90deg, rgba(74, 142, 250, 1) 35%, rgba(52, 179, 254, 1) 100%);
+    padding: 110px 0px;
+}
+
+.achievement-part .achievement-title {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+.achievement-part .achievement-body {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.achievement-part .border-right {
+    border-right: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+/* ********************************************************************************
+                                    ACHIEVEMENT PART END
+******************************************************************************** */
+/* ********************************************************************************
+                                    CONTACT PART START
+******************************************************************************** */
+.contact-part {
+    background: #343434;
+}
+
+.contact-part .common-title {
+    color: #fff;
+}
+
+.contact-part .common-body {
+    color: #cdcdcd;
+}
+
+.contact-part .contact {
+    padding: 110px 0px;
+}
+
+.contact-part .contact .contact-space {
+    margin-top: 20px;
+}
+
+.contact-part .contact .contact-space li {
+    margin-top: 20px;
+}
+
+/* ********************************************************************************
+                                    CONTACT PART END
+******************************************************************************** */
+/* ********************************************************************************
+                                    BOTTOM-BAR PART START
+******************************************************************************** */
+.bottom-part {
+    background: #212121;
+    padding: 20px 0px;
+}
+
+.bottom-part .common-body-black {
+    color: #999;
+}
+
+.bottom-part .common-body-black span {
+    color: #2150DB;
+}
+
+.bottom-part .common-body-black a i {
+    margin-right: 15px;
+}
+
+.bottom-part .left-space {
+    display: block;
+    text-align: right;
+}
+
+/* ********************************************************************************
+                                    BOTTOM-BAR PART END
+******************************************************************************** */
+
+@media only screen and (min-width: 769px) {
+    .contact{
+        
+    }
+
+}
