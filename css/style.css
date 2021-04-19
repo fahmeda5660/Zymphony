@@ -66,7 +66,7 @@ nav ul li {
                                     BANNER PART START
 ******************************************************************************** */
 .bg {
-    background: url("/images/slide_01.jpg") no-repeat;
+    background: url("../images/slide_01.jpg") no-repeat;
     background-size: cover;
     width: 100%;
 }
@@ -322,10 +322,3 @@ nav ul li {
 /* ********************************************************************************
                                     BOTTOM-BAR PART END
 ******************************************************************************** */
-
-@media only screen and (min-width: 769px) {
-    .contact{
-        
-    }
-
-}
